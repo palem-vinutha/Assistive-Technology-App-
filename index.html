@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assistive Technologies App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Assistive Technologies</h1>
+    <button id="toggle-contrast">Toggle High Contrast</button>
+  </header>
+  
+  <main>
+    <section>
+      <h2>Text-to-Speech</h2>
+      <textarea id="tts-text" placeholder="Enter text to read aloud"></textarea>
+      <button id="speak-btn">Speak</button>
+    </section>
+
+    <section>
+      <h2>Keyboard Navigation</h2>
+      <p>Use <strong>Tab</strong> and <strong>Enter</strong> to navigate the app.</p>
+    </section>
+
+    <section>
+      <h2>Font Size Adjustment</h2>
+      <button id="increase-font">Increase Font</button>
+      <button id="decrease-font">Decrease Font</button>
+    </section>
+
+    <section>
+      <h2>Language Translation</h2>
+      <textarea id="translate-text" placeholder="Enter text to translate"></textarea>
+      <button id="translate-btn">Translate</button>
+      <p id="translation-output"></p>
+    </section>
+
+    <section>
+      <h2>Screen Reader Mode</h2>
+      <button id="toggle-reader">Enable Screen Reader</button>
+    </section>
+
+    <section>
+      <h2>Magnifier</h2>
+      <div id="magnifier" contenteditable="true">Hover here to magnify text</div>
+    </section>
+
+    <section>
+      <h2>Virtual Keyboard</h2>
+      <div id="virtual-keyboard"></div>
+    </section>
+
+    <section>
+      <h2>Color Blindness Simulator</h2>
+      <button id="toggle-cb-sim">Toggle Color Blindness Simulation</button>
+    </section>
+
+    <section>
+      <h2>Speech Recognition</h2>
+      <button id="start-speech">Start Speech Recognition</button>
+      <p id="speech-output"></p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
